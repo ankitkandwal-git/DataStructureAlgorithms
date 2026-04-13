@@ -10,9 +10,33 @@ Selection: Choose the best option available.
 Feasibility: Check if the choice is valid.
 Solution Check: Repeat until a complete solution is found. 
 
+
+
 📝 Example Problems in This Folder
-Assign Cookies
-Movie Ticket 
+
+```
+|
+|-- AssignCookies/
+|     |-- main.cpp
+|     |-- Main.java
+|     |-- main.py
+|
+|-- BalancedLocks/
+|     |-- main.cpp
+|     |-- main.py
+|
+|-- ConferenceRoomBooking/
+|     |-- main.cpp
+|     |-- Main.java
+|
+|-- JumpGame/
+|     |-- main.cpp
+|
+|-- MovieTicket/
+|     |-- main.cpp
+|     |-- Main.java
+```
+
 
 
 💡 When to Use Greedy Algorithms?
