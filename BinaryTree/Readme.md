@@ -13,6 +13,7 @@ BinaryTree/
 ├── BalancedBInaryTree/
 ├── BinaryPathSum/
 ├── BinaryTreeTraverse/
+├── BottomViewOfBinaryTree/
 ├── BoundaryTraversalTree/
 ├── CountFamilyMember/
 ├── DiameterOfBinaryTree/
@@ -38,6 +39,7 @@ BinaryTree/
 - **BalancedBInaryTree**: Check if a binary tree is balanced (height difference between subtrees ≤ 1).
 - **BinaryPathSum**: Problems related to calculating and verifying path sums in binary trees.
 - **BinaryTreeTraverse**: General traversal techniques and utilities for navigating binary trees.
+- **BottomViewOfBinaryTree**: Print nodes visible from the bottom view of the binary tree (last node at each horizontal distance).
 - **BoundaryTraversalTree**: Traverse only the boundary nodes of a binary tree (left, bottom, right edges).
 - **CountFamilyMember**: Count nodes based on family relationships (parent-child, ancestors, etc.).
 - **DiameterOfBinaryTree**: Find the longest path between any two nodes in a binary tree.
