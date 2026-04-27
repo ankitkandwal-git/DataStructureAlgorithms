@@ -12,7 +12,6 @@ struct Node{
         right = NULL;
     }
 };
-
 vector<int>rightViewBT(Node*root){
     vector<int>ans;
     if(!root) return ans;
