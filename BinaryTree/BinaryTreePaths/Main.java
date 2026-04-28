@@ -2,7 +2,6 @@ package BinaryTree.BinaryTreePaths;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
-java.util.ArrayList;
 class Node{
     int data;
     Node left;
