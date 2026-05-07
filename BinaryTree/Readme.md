@@ -10,17 +10,24 @@ This directory contains solutions and implementations of various **Binary Tree**
 ```text
 BinaryTree/
 ├── AddBinaryRootToLeaf/
-├── BalancedBInaryTree/
+├── BalancedBinaryTree/
 ├── BinaryPathSum/
+├── BinaryTreePaths/
 ├── BinaryTreeTraverse/
 ├── BottomViewOfBinaryTree/
 ├── BoundaryTraversalTree/
+├── CheckSubTreeIsBinaryTree/
+├── ChildrenSumProperty/
 ├── CountFamilyMember/
 ├── DiameterOfBinaryTree/
 ├── HeightOfTree/
 ├── IdenticalBinaryTree/
 ├── LeafSequence/
+├── LeftViewOfBinaryTree/
 ├── LevelOrderTraversal/
+├── LowestCommonAnchestor/
+├── MaximumPathOfBinaryTree/
+├── MaximumWidthOfBinaryTree/
 ├── MaxPathSum/
 ├── MinHeightOfTree/
 ├── PathSum2/
@@ -29,6 +36,8 @@ BinaryTree/
 ├── PreOrder/
 ├── PreOrderAndInOrderTraversal/
 ├── ProductOfRightLeaves/
+├── RightViewOfBinaryTree/
+├── SymmetricBinaryTree/
 ├── TopViewOfBinaryTree/
 └── VerticalOrderTraversal/
 ```
@@ -36,18 +45,25 @@ BinaryTree/
 ### 📝 Questions Covered by Folder
 
 - **AddBinaryRootToLeaf**: Sum of binary numbers from root to leaf, converting paths to binary values.
-- **BalancedBInaryTree**: Check if a binary tree is balanced (height difference between subtrees ≤ 1).
+- **BalancedBinaryTree**: Check if a binary tree is balanced (height difference between subtrees ≤ 1).
 - **BinaryPathSum**: Problems related to calculating and verifying path sums in binary trees.
+- **BinaryTreePaths**: Generate all root-to-leaf paths in a binary tree and related path operations.
 - **BinaryTreeTraverse**: General traversal techniques and utilities for navigating binary trees.
 - **BottomViewOfBinaryTree**: Print nodes visible from the bottom view of the binary tree (last node at each horizontal distance).
 - **BoundaryTraversalTree**: Traverse only the boundary nodes of a binary tree (left, bottom, right edges).
+- **CheckSubTreeIsBinaryTree**: Verify if one tree is a subtree of another binary tree.
+- **ChildrenSumProperty**: Check or construct binary trees where parent value equals sum of children values.
 - **CountFamilyMember**: Count nodes based on family relationships (parent-child, ancestors, etc.).
 - **DiameterOfBinaryTree**: Find the longest path between any two nodes in a binary tree.
 - **HeightOfTree**: Calculate the maximum depth/height of a binary tree.
 - **IdenticalBinaryTree**: Check if two binary trees are structurally identical with same values.
 - **LeafSequence**: Problems involving leaf node sequences and patterns.
+- **LeftViewOfBinaryTree**: Print nodes visible from the left side of the binary tree.
 - **LevelOrderTraversal**: Breadth-first traversal, printing nodes level by level.
-- **MaxPathSum**: Find the maximum sum path between any two nodes in a tree.
+- **LowestCommonAnchestor**: Find the lowest common ancestor of two nodes in a binary tree.
+- **MaximumPathOfBinaryTree**: Find the maximum sum path between any two nodes in a tree.
+- **MaximumWidthOfBinaryTree**: Find the maximum width (number of nodes) at any level of the binary tree.
+- **MaxPathSum**: Find the maximum sum path between any two nodes in a tree (alternate implementation).
 - **MinHeightOfTree**: Calculate the minimum height from root to any leaf node.
 - **PathSum2**: Find all root-to-leaf paths that sum to a target value.
 - **PathSum3**: Find number of paths (not necessarily root-to-leaf) with target sum.
@@ -55,6 +71,8 @@ BinaryTree/
 - **PreOrder**: Pre-order traversal: node → left → right (top-down approach).
 - **PreOrderAndInOrderTraversal**: Reconstruct binary tree from pre-order and in-order traversals.
 - **ProductOfRightLeaves**: Calculate product of all right leaf nodes.
+- **RightViewOfBinaryTree**: Print nodes visible from the right side of the binary tree.
+- **SymmetricBinaryTree**: Check if a binary tree is symmetric (mirror image of itself).
 - **TopViewOfBinaryTree**: Print nodes visible from the top view of the binary tree.
 - **VerticalOrderTraversal**: Traverse and print nodes in vertical order (left to right columns).
 
