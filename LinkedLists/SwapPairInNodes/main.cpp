@@ -27,3 +27,12 @@ void printLL(Node* head){
         head = head->next;
     }
 }
+
+Node* swapPairs(Node* head){
+    Node* dummy = new Node(-1);
+    Node* prev = dummy;
+    while(prev->next!=NULL && prev.next.next!=NULL){
+        Node* first = prev->next;
+        Node* second = first->next;
+    }
+}
