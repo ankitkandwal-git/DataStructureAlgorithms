@@ -7,7 +7,7 @@ class Node{
     Node* next;
     Node(int x){
         data = x;
-        next = null
+        next = NULL;
     }
 };
 
