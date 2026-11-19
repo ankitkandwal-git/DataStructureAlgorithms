@@ -34,5 +34,10 @@ Node* swapPairs(Node* head){
     while(prev->next!=NULL && prev.next.next!=NULL){
         Node* first = prev->next;
         Node* second = first->next;
+        first->next = second->next;
+        second->next = first;
+        prev->next = second;
+        prev = first;
     }
+    return dummy->next;
 }
