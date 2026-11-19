@@ -20,3 +20,10 @@ Node* arrayToLL(int arr[],int n){
     }
     return head;
 }
+
+void printLL(Node* head){
+    while(head!=NULL){
+        cout<<head->data<<" ";
+        head = head->next;
+    }
+}
