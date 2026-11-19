@@ -41,3 +41,16 @@ Node* swapPairs(Node* head){
     }
     return dummy->next;
 }
+int main(){
+    int n;
+    cout<<"Enter the size of LL: ";
+    cin>>n;
+    int arr[n];
+    cout<<"Enter the elements of LL: ";
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }   
+    Node* head = arrayToLL(arr, n);
+    head = swapPairs(head);
+    printLL(head);
+}
